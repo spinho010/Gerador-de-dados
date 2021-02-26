@@ -9,8 +9,7 @@ janela.configure(background='#001')
 txt1 = Label(janela, text='CPF: ', font='Bold 13', background='#001', foreground='#fff')
 txt1.place(x=15, y=40)
 
-cpf = Entry(janela)
-cpf.place(x=65, y=40, width=250)
-
+txt2 = Label(janela, text='RG: ', font='Bold 13', background='#001', foreground='#fff')
+txt2.place(x=15, y=85)
 
 janela.mainloop()
